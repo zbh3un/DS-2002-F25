@@ -1,0 +1,6 @@
+student_id,major,GPA,is_cs_major,credits_taken
+1,Computer Science,3.8,True,120.5
+2,Biology,3.0,False,95.0
+3,Engineering,3.5,True,110.0
+4,Mathematics,4.0,False,105.5
+5,Computer Science,3.2,True,98.0

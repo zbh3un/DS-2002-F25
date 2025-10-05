@@ -1,0 +1,46 @@
+[
+  {
+    "course_id": "DS2002",
+    "section": "001",
+    "title": "Data Science Systems",
+    "level": 200,
+    "instructors": [
+      {
+        "name": "Austin Rivera",
+        "role": "Primary"
+      },
+      {
+        "name": "Heywood Williams-Tracy",
+        "role": "TA"
+      }
+    ]
+  },
+  {
+    "course_id": "DS2003",
+    "section": "001",
+    "title": "Communicating with Data",
+    "level": 200,
+    "instructors": [
+      {
+        "name": "Antonios Mamalakis",
+        "role": "Primary"
+      }
+    ]
+  },
+  {
+    "course_id": "PSYC 4260",
+    "section": "001",
+    "title": "Epigenetic research",
+    "level": 300,
+    "instructors": [
+      {
+        "name": "Jessica Connelly",
+        "role": "Primary"
+      },
+      {
+        "name": "Taylor",
+        "role": "TA"
+      }
+    ]
+  }
+]
