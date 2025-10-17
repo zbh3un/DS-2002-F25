@@ -1,0 +1,58 @@
+
+
+--- Running Test Pipeline (Built-in Test Modes) ---
+Running in Test Mode...
+Portfolio successfully updated and saved to test_card_portfolio.csv
+==================================================
+PORTFOLIO SUMMARY
+==================================================
+Total Portfolio Value: $326.55
+Most Valuable Card:
+  Name: Charizard
+  ID: base0-4
+  Value: $250.75
+==================================================
+Test complete.
+
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1, base4): base1
+Fetching card data for set: base1
+Card data saved to card_set_lookup/base1.json
+
+--- Adding New Card Set ---
+Enter the TCG Card Set ID (e.g., base1, base4): base4
+Fetching card data for set: base4
+Card data saved to card_set_lookup/base4.json
+
+--- Starting Portfolio Build Workflow ---
+Do you want to add a NEW card set? (yes/no)
+no
+Do you want to refresh ALL existing card sets? (yes/no)
+yes
+make[1]: Entering directory '/workspaces/DS-2002-F25/Labs/Lab_04/pokemon_lab'
+--- Refreshing All Card Sets ---
+Refreshing all card sets in card_set_lookup/
+Updating set: base1
+Data written to card_set_lookup/base1.json
+Updating set: base4
+Data written to card_set_lookup/base4.json
+All card sets have been refreshed.
+make[1]: Leaving directory '/workspaces/DS-2002-F25/Labs/Lab_04/pokemon_lab'
+============================================================
+STARTING PRODUCTION PIPELINE
+============================================================
+[1/2] Running ETL: Updating Portfolio...
+Portfolio successfully updated and saved to card_portfolio.csv
+[2/2] Generating Summary Report...
+==================================================
+PORTFOLIO SUMMARY
+==================================================
+Total Portfolio Value: $5,675.01
+Most Valuable Card:
+  Name: Charizard
+  ID: base1-4
+  Value: $457.99
+==================================================
+============================================================
+PRODUCTION PIPELINE COMPLETE
+============================================================
